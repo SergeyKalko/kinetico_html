@@ -88,7 +88,12 @@ span {
   margin: 18px 10px 13px 50px;
 }
 
-.menu-wrap ul {
+.menu-main-menu-container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu-top {
   width: 760px;
   margin: 0;
   padding: 0;
@@ -98,23 +103,10 @@ span {
   vertical-align: top;
 }
 
-.menu-wrap li {
+.menu-item {
   list-style: none;
   display: inline-block;
-}
-
-.menu-wrap li:first-child {
-  margin-right: 100px;
-}
-
-.menu-wrap li:nth-child(3) {
-  margin-right: 80px;
-  margin-left: 70px;
-}
-
-.menu-wrap li:last-child {
-  margin-right: 58px;
-  margin-left: 72px;
+  margin-right: 60px;
 }
 
 .menu-wrap a {
@@ -634,21 +626,26 @@ span {
   font-size: 11px;
 }
 
-.info {
+.proval {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.proval .info {
   background-color: #ee4e1d;
   width: 220px;
   height: 30px;
-  margin: 20px 0 30px 5px;
+  margin: 20px 0 30px 0px;
 }
 
-.info span {
+.proval .info span {
   color: #f1f1ed;
   font-size: 12px;
   font-weight: bold;
   margin: 0 5px 0 15px;
 }
 
-.info p {
+.proval .info p {
   line-height: 30px;
   color: #982a08;
 }
