@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title><?php bloginfo (); ?></title>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo (template_url); ?>/css/main.css">
 </head>
 <body>
