@@ -1,4 +1,2 @@
 # kinetico_html 
-![alt text](example.com/logo.png)
-
-![alt text](figures/img.png)
+![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
